@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/rampat"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="12">
+
+
+
+        <LinearLayout
+            android:layout_width="338dp"
+            android:layout_height="657dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="6"
+            android:background="#80f0f0f0"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/back"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="317dp"
+                    android:layout_height="192dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:textSize="28dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Sign Up"
+                    android:textColor="#000000" />
+
+
+                <EditText
+                    android:id="@+id/editTextUname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textColor="#000000"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/buttonLogin"
+                    android:layout_marginTop="40dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#808080"
+                    android:layout_gravity="center_vertical"
+                    android:text="Register"/>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

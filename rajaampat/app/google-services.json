@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "634290601850",
+    "firebase_url": "https://rajaampat-4c9e6.firebaseio.com",
+    "project_id": "rajaampat-4c9e6",
+    "storage_bucket": "rajaampat-4c9e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634290601850:android:ffd7f24c30b0e9b21f60c3",
+        "android_client_info": {
+          "package_name": "com.pamku.rajaampat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634290601850-aer8te3v3beh9hvi783v42ujcabrplc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjgp3RBOgNGZ4Z8a0Use8bx5EeFHA0_ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634290601850-aer8te3v3beh9hvi783v42ujcabrplc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
